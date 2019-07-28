@@ -19,5 +19,6 @@ func (s *SimpleScheduler) Run() {
 
 func (s *SimpleScheduler) Submit(
 	r engine.Request) {
+		// goroutine chan 防止 循环等待
 	go func() { s.workerChan <- r }()
 }
