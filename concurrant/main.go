@@ -1,11 +1,11 @@
 package main
 
 import (
-	"imooc.com/ccmouse/learngo/crawler/config"
-	"imooc.com/ccmouse/learngo/crawler/engine"
-	"imooc.com/ccmouse/learngo/crawler/persist"
-	"imooc.com/ccmouse/learngo/crawler/scheduler"
-	"imooc.com/ccmouse/learngo/crawler/zhenai/parser"
+	"github.com/liulehui/crawler/concurrant/config"
+	"github.com/liulehui/crawler/concurrant/engine"
+	"github.com/liulehui/crawler/concurrant/persist"
+	"github.com/liulehui/crawler/concurrant/scheduler"
+	"github.com/liulehui/crawler/concurrant/zhenai/parser"
 )
 
 func main() {

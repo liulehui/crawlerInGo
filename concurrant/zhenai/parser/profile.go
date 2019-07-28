@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"imooc.com/ccmouse/learngo/crawler/config"
-	"imooc.com/ccmouse/learngo/crawler/engine"
-	"imooc.com/ccmouse/learngo/crawler/model"
+	"github.com/liulehui/crawler/concurrant/config"
+	"github.com/liulehui/crawler/concurrant/engine"
+	"github.com/liulehui/crawler/concurrant/model"
 )
 
 var ageRe = regexp.MustCompile(

@@ -7,7 +7,7 @@ import (
 	"errors"
 
 	"gopkg.in/olivere/elastic.v5"
-	"imooc.com/ccmouse/learngo/crawler/engine"
+	"github.com/liulehui/crawler/concurrant/engine"
 )
 
 func ItemSaver(

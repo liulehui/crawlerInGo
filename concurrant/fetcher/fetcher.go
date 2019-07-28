@@ -14,7 +14,7 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
-	"imooc.com/ccmouse/learngo/crawler/config"
+	"github.com/liulehui/crawler/concurrant/config"
 )
 
 var (
