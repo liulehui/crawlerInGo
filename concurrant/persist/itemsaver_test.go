@@ -37,7 +37,7 @@ func TestSave(t *testing.T) {
 	// TODO: Try to start up elastic search
 	// here using docker go client.
 	client, err := elastic.NewClient(
-		elastic.SetSniff(false))
+		elastic.SetBasicAuth("elastic","changeme"),elastic.SetSniff(false))
 
 	if err != nil {
 		panic(err)

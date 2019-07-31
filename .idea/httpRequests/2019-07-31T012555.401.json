@@ -1,0 +1,19 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "security_exception",
+        "reason": "missing authentication token for REST request [/dating_test/dating_profile/_search]",
+        "header": {
+          "WWW-Authenticate": "Basic realm=\"security\" charset=\"UTF-8\""
+        }
+      }
+    ],
+    "type": "security_exception",
+    "reason": "missing authentication token for REST request [/dating_test/dating_profile/_search]",
+    "header": {
+      "WWW-Authenticate": "Basic realm=\"security\" charset=\"UTF-8\""
+    }
+  },
+  "status": 401
+}

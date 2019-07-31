@@ -1,0 +1,27 @@
+POST http://localhost:9200/test/liulehui
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-07-31T013227.401.json
+
+###
+
+GET http://localhost:9200/dating_test/dating_profile/_search
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-07-31T012555.401.json
+
+###
+
+GET http://localhost:9200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-07-31T123655.200.json
+
+###
+

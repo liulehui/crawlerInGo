@@ -13,6 +13,7 @@ import (
 func ItemSaver(
 	index string) (chan engine.Item, error) {
 	client, err := elastic.NewClient(
+		elastic.SetBasicAuth("elastic","changeme"),
 		// Must turn off sniff in docker
 		elastic.SetSniff(false))
 
@@ -53,6 +54,7 @@ func Save(
 		Index(index).
 		Type(item.Type).
 		BodyJson(item)
+
 	if item.Id != "" {
 		indexService.Id(item.Id)
 	}
